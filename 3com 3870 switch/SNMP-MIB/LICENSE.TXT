@@ -1,0 +1,153 @@
+======================================================================
+IMPORTANT:  READ BEFORE USING THE MIB FILES CONTAINED IN THIS DOWNLOAD 
+======================================================================
+
+               ----------------------------------------                  
+                   3COM MIB FILES LICENSE AGREEMENT
+               ----------------------------------------      
+
+YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS 
+BEFORE DOWNLOADING, INSTALLING OR USING THE MIB FILES, THE USE 
+OF WHICH IS LICENSED BY 3COM CORPORATION ("3COM") TO ITS 
+CUSTOMERS FOR THEIR USE ONLY AS SET FORTH BELOW. DOWNLOADING, 
+INSTALLING OR OTHERWISE USING ANY PART OF THE MIB FILES 
+INDICATES THAT YOU ACCEPT THESE TERMS AND CONDITIONS.  IF YOU 
+DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, 
+DO NOT DOWNLOAD, INSTALL OR OTHERWISE USE THE MIB FILES, 
+DO NOT CLICK ON THE "I AGREE" OR SIMILAR BUTTON. 
+
+LICENSE: 3Com grants you a nonexclusive, nontransferable license to 
+use the MIB Files solely in relation to your use of 3Com products, 
+solely for internal purposes and subject to the terms and 
+restrictions set forth in this Agreement. You are not permitted to 
+lease, rent, distribute or sublicense the MIB Files or to use them 
+in a time-sharing arrangement or in any other unauthorized manner. 
+Except as expressly set forth in this Agreement, this Agreement does
+not grant you any rights to patents, copyrights, trade secrets, 
+trademarks, or any other rights with respect to the MIB Files. 
+
+You may make only one (1) copy of the MIB Files for your licensed 
+use and one (1) copy of the MIB Files for backup or archive purposes 
+in support of your licensed use of the MIB Files. Each copy of the 
+MIB Files must contain 3Com's and its licensors' proprietary rights 
+and copyright notices in the same form as on the original.  
+You agree not to remove or deface any portion of any legend provided 
+on any items delivered to you under this Agreement.
+
+NO ASSIGNMENT: You may not assign or transfer your rights 
+under this Agreement.
+
+EXPORT RESTRICTIONS: The MIB files and all related technical data 
+(and any copies thereof) (collectively "Technical Data"), may 
+contain encryption.  The Technical Data is subject to U.S. and E.U. 
+export control laws and regulations and may be subject to export or 
+import regulations in other countries including controls on 
+encryption products. You agree that you will not export, re-export 
+or transfer the Technical Data (or any copies thereof) or any 
+products utilizing the Technical Data in violation of any applicable 
+laws or regulations of the United States or the country where you 
+legally obtained it. You are responsible for obtaining any licenses 
+to export, re-export, transfer or import the Technical Data. 
+
+In addition to the above, the Technical Data may not be used by, 
+or exported or reexported to (i) any U.S.- or EU- sanctioned or 
+embargoed country, or to nationals or residents of such countries; 
+or (ii) to any person, entity, organization or other party 
+identified on the U.S. Department of Commerce's Table of Denial 
+Orders or the U.S. Department of Treasury's lists of "Specially 
+Designated Nationals and Blocked Persons," as published and 
+revised from time to time; (iii) to any party engaged in nuclear, 
+chemical/biological weapons or missile proliferation activities,  
+unless authorized by U.S. and local (as required) law or regulations.
+
+CONFIDENTIAL INFORMATION; TITLE: You acknowledge and agree that 
+the MIB Files are and contain valuable confidential information 
+of 3Com and its suppliers. You agree to hold such confidential 
+information in confidence. You agree not to use such confidential 
+information except as expressly licensed above and you agree not 
+to disclose such confidential information to any third parties. 
+You further acknowledge and agree that ownership of, and title to, 
+the MIB Files and all subsequent copies thereof regardless of the 
+form or media are held by 3Com and its suppliers.
+
+UNITED STATES GOVERNMENT RESTRICTED RIGHTS:  The MIB Files are 
+"Commercial Items(s)" as defined in 48 C.F.R. §2.101, consisting 
+of "Commercial Computer Software" and "Commercial Computer 
+Software Documentation", as such terms are used in 48 C.F.R. 
+§ 12.212 or 48 C.F.R. §227.7202, as applicable.  Consistent with 
+48 C.F.R. §12.212 or 48 C.F.R. §227-7202-1 through 227.7202-4, 
+as applicable, the Commercial Computer Software and Commercial 
+Computer Software Documentation are being licensed U.S. Government 
+end users (a) only as Commercial Items and (b) with only those 
+rights as are granted to all other end users pursuant to the terms 
+and conditions herein.  Therefore, if you are licensing the MIB 
+Files for acquisition by the U.S. Government or any contractor 
+therefore, you will license consistent with the policies set forth 
+in 48 C.F.R. §12.212 (for civilian agencies) and 48 C.F.R. 
+§227-7202-1 and 227.7202-4 (for the Department of Defense), 
+and their successors.
+
+TERM AND TERMINATION: The licenses granted hereunder are perpetual 
+unless terminated earlier as specified below. You may terminate the 
+licenses and this Agreement at any time by destroying the MIB Files 
+together with all copies and merged portions in any form. The 
+licenses and this Agreement will also terminate immediately if you 
+fail to comply with any term or condition of this Agreement. Upon 
+such termination you agree to destroy the MIB Files, together with 
+all copies and merged portions in any form.
+
+NO WARRANTIES; LIMITATION OF LIABILITY: THE MIB FILES ARE 
+PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED EITHER IN FACT OR BY OPERATION OF LAW, STATUTORY OR 
+OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES, TERMS 
+OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE, SATISFACTORY QUALITY, CORRESPONDENCE WITH DESCRIPTION, 
+NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS AND QUIET 
+ENJOYMENT, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. IN PARTICULAR, 
+MIB FILES RELATING TO 3COM PRODUCTS ARE SUBJECT TO CHANGE AT 
+ANY TIME WITHOUT NOTICE AND 3COM ACCEPTS NO LIABILITY FOR 
+YOUR RELIANCE ON MIB FILES SUPPLIED UNDER THIS AGREEMENT.  
+
+TO THE FULL EXTENT ALLOWED BY LAW, 3COM ALSO EXCLUDES FOR ITSELF 
+AND ITS LICENSORS ANY LIABILITY, WHETHER BASED IN CONTRACT OR 
+TORT (INCLUDING NEGLIGENCE), FOR INCIDENTAL, CONSEQUENTIAL, 
+INDIRECT, SPECIAL, OR PUNITIVE DAMAGES OF ANY KIND, OR FOR LOSS 
+OF REVENUE OR PROFITS, LOSS OF BUSINESS, LOSS OF INFORMATION OR 
+DATA, OR OTHER FINANCIAL LOSS ARISING OUT OF OR IN CONNECTION 
+WITH YOUR USE OF THE MIB FILES EVEN IF 3COM HAS BEEN ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGES. THIS DISCLAIMER OF LIABILITY 
+FOR DAMAGES WILL NOT BE AFFECTED IF ANY REMEDY PROVIDED HEREIN 
+SHALL FAIL OF ITS ESSENTIAL PURPOSE.
+
+GOVERNING LAW:  This Agreement shall be governed by the laws of 
+the State of California, U.S.A. excluding its conflicts of laws 
+principles and excluding the United Nations Convention on Contracts 
+for the International Sale of Goods.
+
+SEVERABILITY: In the event any provision of this Agreement is found 
+to be invalid, illegal or unenforceable, the validity, legality and 
+enforceability of any of the remaining provisions shall not in any 
+way be affected or impaired and a valid, legal and enforceable 
+provision of similar intent and economic impact shall be substituted 
+therefor.
+
+ENTIRE AGREEMENT: This Agreement sets forth the entire understanding 
+and agreement between you and 3Com and supersedes all prior 
+agreements, whether written or oral, with respect to the MIB Files, 
+and may be amended only in writing signed by both parties.
+
+Should you have any questions concerning this Agreement or if you 
+desire to contact 3Com for any reason, please contact the 3Com 
+subsidiary serving your country, or write: 3Com Corporation, Customer 
+Support Information, 350 Campus Drive, Marlborough, MA  01752-3064
+
+3Com Corporation
+350 Campus Drive,
+Marlborough, MA 01752-3064
+
+Copyright (c) 2003 3Com Corporation and its licensors.  
+All rights reserved.  
+3Com is a registered trademark of 3Com Corporation.
+
+DLA0001-0GAA03-ASCII
+
