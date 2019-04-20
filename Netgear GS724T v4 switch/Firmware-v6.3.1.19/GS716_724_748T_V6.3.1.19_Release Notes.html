@@ -1,0 +1,80 @@
+<p><strong>Fixed Issues:</strong></p>
+
+<ul>
+	<li>Multicast packet with destination MAC address of 01:80:c2:00:00:1c and Ethernet type of 0x88CC causes loop in properly converged STP topology.</li>
+	<li>Debugging URL of &lsquo;devshell&rsquo; is accessible without authentication.</li>
+	<li>Can&#39;t correctly set VLAN Tag in &#39;Port PVID Configuration&#39; GUI page.</li>
+	<li>Switch incorrectly discards IS-IS hello packages.</li>
+</ul>
+
+<p><strong>Modifications:</strong></p>
+
+<ul>
+	<li>Added configurable option &ldquo;Block Unknown Multicast Address&rdquo; in GUI page of &lsquo;Switching &gt; Multicast &gt; IGMP Snooping &gt; IGMP Snooping Configuration&rsquo; to Enable or Disable unknown multicast traffic flooding.
+	<ul>
+		<li>The default is disable, and switch floods unknown multicast traffic.</li>
+		<li>When it is enabled switch blocks un-registered multicast traffic.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Known issues:</strong></p>
+
+<ol>
+	<li>Warning messages pop up when the HTTPS admin status is enabled.<br />
+	[<strong>Workaround</strong>]: Refresh the GUI screen.</li>
+	<li>The cable test results sometimes show a&nbsp;much longer value.<br />
+	[<strong>Workaround</strong>]: Redo the cable test on the same port.</li>
+</ol>
+
+<p><strong>Notes :</strong></p>
+
+<ul>
+	<li>The released zip contains switch firmware (gs7xxt-v6.3.1.19.stk) and MIB files. Please unzip the file to extract the switch image for firmware upgrade.</li>
+	<li>During the boot time (about 2 minutes), all LED lights on for GS716Tv3 and GS724Tv4. This is working as HW design.</li>
+</ul>
+
+<p><strong>Limitations:</strong></p>
+
+<ol>
+	<li>It is NOT supported for configuration migration from older devices GS716Tv2/GS724Tv3/GS748Tv4 to new devices GS716Tv3/GS724Tv4/GS748Tv5.</li>
+	<li>The boot time for GS716Tv3/GS724Tv4/GS748Tv5 is about 40 seconds longer than GS716Tv2/GS724Tv3/GS748Tv4.</li>
+</ol>
+
+<p><strong>Upgrade Procedure:</strong></p>
+
+<ol>
+	<li>Download the new firmware 6.3.1.19&nbsp;from NETGEAR product support Website and store it in local PC, and remember its location in the PC&#39;s file system. Then unzip it to get the switch image &quot;<strong>gs7xxt-v6.3.1.19.stk</strong>&quot;.<br />
+	<br />
+	<strong>&nbsp; Download Link</strong>:&nbsp;<u><a href="http://www.downloads.netgear.com/files/GDC/GS716TV3/GS716_724_748T_V6.3.1.19.zip" target="_blank">http://www.downloads.netgear.com/files/GDC/GS716TV3/GS716_724_748T_V6.3.1.19.zip</a></u></li>
+	<li>There are four methods to upgrade the new firmware from PC to the switch.<br />
+	1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTTP<br />
+	2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TFTP<br />
+	3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USB<br />
+	4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCC (Smart Control Center)<br />
+	Below are the steps to upgrade the firmware via HTTP, which is the most convenient method. For the other three methods, please check the IG and SW User Manual for details.</li>
+	<li>To use HTTP method, go to GUI page &quot;Maintenance &gt; File Management &gt; Dual Image &gt; Dual Image Configuration&quot;, find the backup (next-active) image.</li>
+	<li>Suppose the backup-image is image1, then go to &ldquo;Maintenance &gt; Download &gt; HTTP File Download&rdquo;, set File Type as &lsquo;Archive&rsquo;, set Image Name as &lsquo;Image1&rsquo;, select the firmware file &lsquo;gs7xxt-v6.3.1.19.stk&rsquo; stored in local PC via Browser button, then click Apply button to start firmware downloading.<br />
+	<br />
+	<img alt="image" border="0" src="http://www.downloads.netgear.com/files/answer_media/images/31584_img1.png" /><br />
+	<br />
+	The download will take several minutes. Do not power cycle the switch before and the success message shows up as below.<br />
+	<br />
+	<img alt="image" border="0" src="http://www.downloads.netgear.com/files/answer_media/images/31584_img2.png" /></li>
+	<li>Go to GUI page &quot;Maintenance &gt; File Management &gt; Dual Image &gt; Dual Image Configuration&quot;, set &#39;Image Name&#39; with Image1, check the checkbox of &#39;Activate Image&#39;, then Apply.<br />
+	<br />
+	<img alt="image" border="0" src="http://www.downloads.netgear.com/files/answer_media/images/31584_img3.png" /><br />
+	&nbsp;</li>
+	<li>Go to GUI page &quot;Maintenance &gt; File Management &gt; Dual Image &gt; Dual Image Status&quot;, to double check 6.3.1.19&nbsp;is correctly downloaded to image1 and image1 is the &#39;next-active&#39; image. If not, go back to step 3 to download the switch image again.<br />
+	<br />
+	<img alt="image" src="https://www.downloads.netgear.com/files/answer_media/images/000038699_img1.png" style="border-width: 0px; border-style: solid;" /></li>
+	<li>Go to GUI page &#39;Maintenance &gt; Reset &gt; Device Reboot&#39;, set &#39;Reboot Unit No.&#39; as &#39;All&#39; (default option); check the checkbox then click Apply button.<br />
+	<br />
+	<img alt="image" border="0" src="http://www.downloads.netgear.com/files/answer_media/images/31584_img5.png" /><br />
+	<br />
+	The restart may take several minutes, do not power cycle or reboot the switch before the process is complete.</li>
+	<li>After the switch is restarted, login the switch to double check whether the FW is upgraded correctly, via GUI page of &quot;GUI page System &gt; Management &gt; System Information&quot;.<br />
+	<br />
+	<img alt="image" src="https://www.downloads.netgear.com/files/answer_media/images/000038699_img2.png" style="border-width: 0px; border-style: solid;" /><br />
+	&nbsp;</li>
+</ol>
